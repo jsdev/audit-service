@@ -1,0 +1,15 @@
+{
+  "name": "a11y-audit",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://jsdev.github.io/react-lingo",
+  "scripts": {
+    "audit": "playwright test audit.mjs"
+  },
+  "dependencies": {
+    "@axe-core/playwright": "^4.8.5",
+    "@playwright/test": "^1.40.0",
+    "axe-html-reporter": "^2.2.3",
+    "axe-playwright": "^2.0.1"
+  }
+}
